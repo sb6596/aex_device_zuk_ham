@@ -119,6 +119,9 @@ TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS := 0x02000000U
 OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 TARGET_NEEDS_PLATFORM_TEXT_RELOCATIONS := true
 
+# HWUI
+HWUI_COMPILE_FOR_PERF := true
+
 # Shader cache config options
 # Maximum size of the  GLES Shaders that can be cached for reuse.
 # Increase the size if shaders of size greater than 12KB are used.
