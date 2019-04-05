@@ -29,6 +29,15 @@ TARGET_BOOT_ANIMATION_RES := 1080
 # AospExtended-BuildType
 EXTENDED_BUILD_TYPE := OFFICIAL
 
+# Use Gapps
+ifeq ($(GAPPS_BUILD),true)
+WITH_GAPPS := true
+TARGET_GAPPS_ARCH := arm
+IS_PHONE := true
+TARGET_MINIMAL_APPS := true
+TARGET_SHIPS_SEPERATE_GAPPS_BUILD := true
+endif
+
 # Ditch Via, Build Jelly
 TARGET_USE_JELLY := true
 
