@@ -10,5 +10,11 @@
     "repository":  "TheMuppets/android_proprietary_vendor_zuk",
     "target_path": "vendor/zuk",
     "branch":      "lineage-16.0"
+  },
+  {
+    "remote":      "github",
+    "repository":  "LineageOS/android_hardware_lineage_telephony",
+    "target_path": "hardware/lineage/telephony",
+    "branch":      "lineage-16.0"
   }
 ]
